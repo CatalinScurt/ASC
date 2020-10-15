@@ -17,7 +17,7 @@ namespace ASC1
             try
             {
                 numarPantof = int.Parse(line);
-                Console.WriteLine("Aveti numarul {} la pantof", numarPantof);
+                Console.WriteLine("Aveti numarul {0} la pantof", numarPantof);
 
             }
             catch (FormatException e)
