@@ -1,5 +1,5 @@
 ﻿//Acest program simuleaza functionarea unui aparat de vanzari
-//Se pot introduce 3 tipuri de monede : 5 / 10 si 25
+//Se pot introduce 3 tipuri de monede : 5, 10 si 25
 //Daca se introduce o suma de bani mai mare decat costul produsului, programul poate sa dea rest sau sa retina diferenta pentru o urmatoare achizitie
 using System;
 
@@ -51,7 +51,7 @@ namespace AutomatDeVanzari
             rest = suma - 20;
             if (rest == 0)                                              //pentru restul 0 se repeta programul
                 goto Start;
-            if (rest == 5)                                              //pentru rest  = 5, 10, 15 sau 20: se elibereaza restul
+            if (rest == 5)                                              //pentru rest  = 5, 10, 15 sau 20:
             {                                                           // 1: se elibereaza restul
                 suma = Rest1.FiveCoin();                                // sau
                 if (suma == 0)                                          // 2: se retine restul pentru o urmatoare achizitie
