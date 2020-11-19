@@ -6,13 +6,13 @@ namespace AutomatDeVanzari
 {
     class Rest15
     {
-        public static int FiveteenCoin()
+        public static int FifteenCoin()
         {
             Retry:
             Console.WriteLine("Rest: 15 coin");
             Console.WriteLine("^^^^^^^^^^^^^");
-            Console.WriteLine("Pentru a retrage apasati tasta 1");
-            Console.WriteLine("Pentru a continua cumparaturile apasati tasta 2");
+            Console.WriteLine("Pentru a retrage apasati tasta '1'.");
+            Console.WriteLine("Pentru a continua cumparaturile apasati tasta '2'");
             int answer = int.Parse(Console.ReadLine());
             if (answer == 1)
             {

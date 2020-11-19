@@ -9,9 +9,9 @@ namespace AutomatDeVanzari
         public static int TwentyCoin()
         {   Retry:
             Console.WriteLine("Rest: 20 coin");
-            Console.WriteLine("^^^^^*^^^^^^^");
-            Console.WriteLine("Pentru a retrage apasati tasta 1");
-            Console.WriteLine("Pentru a mai achizitiona un produs apasati tasta 2");
+            Console.WriteLine("^^^^^^^^^^^^^");
+            Console.WriteLine("Pentru a retrage apasati tasta '1'");
+            Console.WriteLine("Pentru a mai achizitiona un produs apasati tasta '2'");
             int answer = int.Parse(Console.ReadLine());
             if (answer == 1)
             {
